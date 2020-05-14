@@ -1,0 +1,156 @@
+.skill {
+  width: 100%;
+  height: 100vh;
+  background-color: #acd4bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Black Han Sans", sans-serif;
+  color: #333329fa;
+}
+
+.skill h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+  margin-bottom: 100px;
+}
+
+.skill .skill__box {
+  width: 700px;
+}
+
+/*
+.skill .skill__graph-rate {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.skill .skill__graph-rate span {
+  margin-left: 250px;
+  border-bottom: 1px solid #333329fa;
+  font-family: "Abril Fatface", cursive;
+  font-size: 3rem;
+}
+
+.skill .skill__item {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.skill .skill__item:last-child {
+  margin-bottom: 0;
+}
+
+.skill__item span {
+  font-size: 3rem;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.skill__item .item__js {
+  font-size: 2rem;
+}
+
+.skill__item .skill__graph-bar {
+  height: 100px;
+  width: 300px;
+  background-color: red;
+}
+
+css
+*/
+
+/*  html
+<li class="skill__graph-rate">
+  <span class="graph__number">1</span>
+  <span class="graph__number">2</span>
+  <span class="graph__number">3</span>
+</li>
+<li class="skill__item">
+  <span>HTML</span>
+    <div class="skill__graph-bar bar__html"></div>
+</li>
+<li class="skill__item">
+  <span>CSS</span>
+  <div class="skill__graph-bar bar__css"></div>
+</li>
+<li class="skill__item">
+  <span class="item__js">JAVA SCRIPT</span>
+  <div class="skill__graph-bar bar__js"></div>
+</li>
+<li class="skill__item">
+  <span>REACT</span>
+  <div class="skill__graph-bar bar__react"></div>
+</li>
+*/
+
+.skill .skill__box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: auto;
+}
+
+.skill__box .skill__item:nth-child(6) {
+  background-color: rgb(226, 97, 42);
+}
+
+.skill__box .skill__item:nth-child(8) {
+  background-color: rgb(36, 89, 211);
+}
+
+.skill__box .skill__item:nth-child(10) {
+  background-color: rgb(241, 218, 44);
+}
+
+.skill__box .skill__item:nth-child(12) {
+  background-color: rgba(32, 184, 211, 0.938);
+}
+
+.skill__box .skill__item:nth-child(1),
+.skill__box .skill__item:nth-child(2),
+.skill__box .skill__item:nth-child(3),
+.skill__box .skill__item:nth-child(4) {
+  text-align: end;
+}
+
+.skill__box .skill__item:nth-child(6),
+.skill__box .skill__item:nth-child(8),
+.skill__box .skill__item:nth-child(10),
+.skill__box .skill__item:nth-child(12) {
+  grid-column: 2/5;
+  height: 4rem;
+}
+
+.skill__box .skill__item:nth-child(6),
+.skill__box .skill__item:nth-child(8),
+.skill__box .skill__item:nth-child(10),
+.skill__box .skill__item:nth-child(12) {
+  animation: transBox 1s linear forwards;
+}
+
+.skill__box .skill__item:nth-child(5),
+.skill__box .skill__item:nth-child(7),
+.skill__box .skill__item:nth-child(9),
+.skill__box .skill__item:nth-child(11) {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.skill__box .skill__item:nth-child(9) {
+  font-size: 1.5rem;
+}
+
+@keyframes transBox {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

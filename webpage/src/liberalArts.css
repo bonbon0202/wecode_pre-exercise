@@ -1,0 +1,15 @@
+.liberalArts {
+  background-color: #eaebe6;
+}
+
+.liberalArts .info__content i {
+  color: #262927;
+}
+
+.liberalArts .info__content i:hover {
+  color: #acd4bd;
+}
+
+.liberalArts .emphasis {
+  color: #44ce80;
+}

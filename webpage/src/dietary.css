@@ -1,0 +1,11 @@
+.dietary {
+  background-color: #eaebe6;
+}
+
+.dietary .info__content i {
+  color: #262927;
+}
+
+.dietary .info__content i:hover {
+  color: #acd4bd;
+}
