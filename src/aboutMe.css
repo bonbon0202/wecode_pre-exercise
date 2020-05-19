@@ -86,6 +86,10 @@
   right: 30px;
 }
 
+.aboutMe .aboutMe__img i:active {
+  transform: scale(0.98);
+}
+
 .aboutMe .aboutMe__img:hover img {
   zoom: 1;
   filter: alpha(opacity=50);

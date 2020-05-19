@@ -16,6 +16,7 @@
 @import "dietary.css";
 @import "skill.css";
 @import "contact.css";
+@import "game.css";
 
 * {
   box-sizing: border-box;
