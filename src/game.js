@@ -133,5 +133,12 @@ function draw() {
 }
 
 // call draw function every 100 ms
-
 let game = setInterval(draw, 100);
+
+// lock scroll
+
+function disableScroll() {
+  document.body.classList.add("stop-scrolling");
+}
+
+let stopScroll = disableScroll();

@@ -22,3 +22,8 @@
   color: #333329fa;
   margin-bottom: 50px;
 }
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
